@@ -14,7 +14,7 @@ import javax.servlet.http.HttpSession;
 /**
  * Servlet Filter implementation class Sesion
  */
-@WebFilter("/Sesion")
+@WebFilter(filterName="/Sesion", urlPatterns = "/zonaprivada.jsp")
 public class Sesion implements Filter {
 
 	/**
